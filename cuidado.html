@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+    <title>Cuidados de la Mascota - Veterinaria San Roque</title>
+    <style>
+        /* Ajustar tamaño del carrusel */
+        #carouselCuidados {
+            max-width: 600px; /* Ancho máximo */
+            margin: 0 auto; /* Centrar carrusel */
+        }
+        #carouselCuidados img {
+            max-height: 350px; /* Altura máxima de las imágenes */
+            object-fit: cover; /* Ajustar imagen sin deformarse */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header text-center my-5">
+            <h1>Cuidados de la Mascota</h1>
+        </header>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Veterinaria</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="somos.html">Quiénes Somos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="productos.html">Productos de Mascotas</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" aria-current="page" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Cuidados
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="cuidados.html">Cuidados de la Mascota</a></li>
+                    <li><a class="dropdown-item" href="adopta.html">Adopta</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Carrusel de imágenes de cuidados -->
+        <section class="my-5">
+            <div id="carouselCuidados" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://i.postimg.cc/kgXLcPfJ/4221.jpg" class="d-block w-100" alt="Cuidado de la mascota 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.postimg.cc/y6GJB735/12.jpg" class="d-block w-100" alt="Cuidado de la mascota 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.postimg.cc/dV2D8dNP/45.jpg" class="d-block w-100" alt="Cuidado de la mascota 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCuidados" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCuidados" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Pasos para cuidar a una mascota -->
+        <section class="my-5">
+            <h2>Pasos para Cuidar a tu Mascota</h2>
+            <ol>
+                <li><strong>Alimentación adecuada:</strong> Proporciónale una dieta balanceada según su edad, tamaño y necesidades específicas.</li>
+                <li><strong>Hidratación:</strong> Asegúrate de que siempre tenga agua fresca y limpia disponible.</li>
+                <li><strong>Ejercicio regular:</strong> Sácalo a pasear o juega con él para mantenerlo activo y saludable.</li>
+                <li><strong>Visitas al veterinario:</strong> Lleva a tu mascota a chequeos regulares, vacunaciones y desparasitaciones.</li>
+                <li><strong>Higiene:</strong> Mantén su pelaje limpio, corta sus uñas regularmente y cepíllalo para evitar enredos.</li>
+                <li><strong>Amor y compañía:</strong> Dale mucho cariño y pasa tiempo con tu mascota para fortalecer el vínculo.</li>
+            </ol>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer text-center my-5">
+            <p>&copy; 2024 Veterinaria San Roque. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+    <!-- Scripts necesarios para Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
